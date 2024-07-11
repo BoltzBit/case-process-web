@@ -1,7 +1,7 @@
 @if(companyAreas$ | async; as companyAreas){
     <div class="surface-ground px-4 py-5 md:px-6 lg:px-8">
         <div class="flex justify-content-end">
-            <button pButton label="Add Company Area" icon="pi pi-check"></button>
+            <button pButton label="Add Company Area" icon="pi pi-check" routerLink="/create"></button>
         </div>
 
         <div class="grid">
@@ -17,7 +17,7 @@
                                 <i class="pi pi-shopping-cart text-blue-500 text-xl"></i>
                             </div>
                         </div>
-                        <span class="text-green-500 font-medium">{{companyAreas.length}} </span>
+                        <span class="text-green-500 font-medium">{{area.processes.length}} </span>
                         <span class="text-500">process in this department</span>
                     </div>
                 </div>

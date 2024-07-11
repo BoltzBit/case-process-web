@@ -7,6 +7,7 @@ import { ButtonModule } from 'primeng/button';
 import { ToggleButtonModule } from 'primeng/togglebutton';
 import { FormsModule } from '@angular/forms';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { TreeModule } from 'primeng/tree';
 
 @Component({
   selector: 'app-company-area',
@@ -15,7 +16,8 @@ import { RouterLink, RouterOutlet } from '@angular/router';
     FormsModule, 
     ButtonModule,
     ToggleButtonModule, 
-    RouterOutlet, 
+    RouterOutlet,
+    TreeModule,
     RouterLink],
   templateUrl: './company-area.component.html',
   styleUrl: './company-area.component.scss'
